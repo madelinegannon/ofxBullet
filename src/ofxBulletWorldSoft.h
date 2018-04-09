@@ -16,16 +16,16 @@
 
 class ofxBulletWorldSoft : public ofxBulletWorldRigid {
 public:
-    virtual void setup();
-    virtual void setGravity( ofVec3f a_g );
-
-    btSoftRigidDynamicsWorld* getWorld();
-    btSoftBodyWorldInfo& getInfo();
-
-protected:
-    virtual btCollisionConfiguration* createCollisionConfig();
-    virtual btDiscreteDynamicsWorld* createWorld();
-    
-    btSoftBodyWorldInfo	softBodyWorldInfo;
+//    virtual void setup();
+//    virtual void setGravity( ofVec3f a_g );
+//
+//    btSoftRigidDynamicsWorld* getWorld();
+//    btSoftBodyWorldInfo& getInfo();
+//
+//protected:
+//    virtual btCollisionConfiguration* createCollisionConfig();
+//    virtual btDiscreteDynamicsWorld* createWorld();
+//
+//    btSoftBodyWorldInfo	softBodyWorldInfo;
 
 };
